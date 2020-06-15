@@ -1,0 +1,83 @@
+body
+{
+    display: flex;
+    margin: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: rgb(250, 199, 199);
+}
+
+#contenu
+{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    padding-top: 0%;
+    background-color: rgb(238, 133, 133);
+    border: 3px solid;
+    border-image:linear-gradient(to right,
+  #c4e17f 0px, #c4e17f 50px,
+  #f7fdca 50px, #f7fdca 100px,
+  #fad071 100px, #fad071 150px,
+  #f0766b 150px, #f0766b 200px,
+  #db9dbe 200px, #db9dbe 250px,
+  #c49cdf 250px, #c49cdf 300px,
+  #6599e2 300px, #6599e2 350px,
+  #61c2e4 350px, #61c2e4 400px) 10;
+  border-image-repeat: repeat;
+}
+
+header
+{
+    font: 3em "Trebuchet MS", helvetica, sans-serif ;
+
+}
+
+ul#menu
+{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style-type: none;
+    font-size: 1.5em;
+    padding-left: 0%;
+}
+
+ul#menu li 
+{
+    margin-right: 3%;
+}
+
+.coktail h3{ padding-left: 1.5em; }
+
+.coktail img
+{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.coktail_header
+{
+    display: flex;
+    align-items: baseline;
+}
+
+h3
+{
+    font-family: serif;
+    font-size: 2em;
+    color: white;
+}
+
+p
+{
+    font-family: "Trebuchet MS", helvetica, sans-serif ;
+    color: #404040;
+}
+
+footer
+{
+    font-size: 0.9em;
+    text-align: center;
+}
